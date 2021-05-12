@@ -43,5 +43,5 @@ def get_anecdote():
     res = res.replace('<br />', '\n')
     res = res.replace('&quot;', '"')
     link = "https://bash.im/" + r["url"]
-    return res + "\n" + link
+    return res 
 
